@@ -1,0 +1,6 @@
+xgboost==1.7.2
+pyarrow
+pandas
+numpy
+scikit-learn
+boto3
