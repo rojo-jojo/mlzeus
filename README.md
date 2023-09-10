@@ -1,9 +1,9 @@
 # mlzeus
-XGBoost came up with external memory training in version 1.7.2. This allows you to load data from disk in batches and train iteratively on your ram. This means that earlier you could only train ML models with the data that can fit in your RAM, now you can use as much data you want to train on with limited RAM.
+XGBoost came up with external memory training in version 1.7.2. Now it allows you to load data from disk in batches and train iteratively on your ram. This means that earlier you could only train ML models with the data that can fit in your RAM, now you can use as much data you want to train on with limited RAM.
 
-mlzeus extends the functionality to use pandas friendly tabular file types like parquet and csv for training. The original code on xgboost documentation only supports libsvm file type.
+mlzeus is a smol python code that extends this functionality to use pandas friendly tabular file types like parquet and csv for training. The original code on xgboost documentation only supports libsvm file type.
 
-It also has a function to get batch of files AWS S3 and train on them
+It also has a function to get batch of files AWS S3 and train on them. Can support other clouds in future.
 
 To run on a unix based system
 
