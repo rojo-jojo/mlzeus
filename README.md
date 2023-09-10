@@ -1,4 +1,7 @@
 # mlzeus
+mlzeus is a collection of mlops utilities which are useful for MLOPs/MLE software developers. I have built this which working as a mlops engineer with AWS stack hence most things would be AWS specific but you can generalize for your usecase.
+
+## Xgboost Extender
 XGBoost came up with external memory training in version 1.7.2. Now it allows you to load data from disk in batches and train iteratively on your ram. This means that earlier you could only train ML models with the data that can fit in your RAM, now you can use as much data you want to train on with limited RAM.
 
 mlzeus is a smol python code that extends this functionality to use pandas friendly tabular file types like parquet and csv for training. The original code on xgboost documentation only supports libsvm file type.
